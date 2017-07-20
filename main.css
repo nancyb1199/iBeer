@@ -144,7 +144,12 @@ aside img{
     margin-bottom: 30px;
     border: 2px solid white;
 }
+
+
 article{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
@@ -183,8 +188,13 @@ article footer p{
 #site-footer{
 
     background: #333;
+    text-align: center;
     /*
         TODO:
         - Style the site footer
     */
+}
+#site-footer>span {
+  color: white;
+  font-size: 50%;
 }
