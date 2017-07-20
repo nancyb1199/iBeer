@@ -32,7 +32,13 @@ img{
     display: block;
 }
 .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 1000px;
+    margin: 0;
+    padding: 0;
+    background-color: #eeebda;
 
     /*
         TODO:
@@ -42,6 +48,9 @@ img{
     */
 }
 #site-header{
+  justify-content: center;
+  width: 800;
+  margin: 100;
     /*
         TODO
         - Flexbox property here
@@ -54,7 +63,7 @@ img{
     background-image: url("header-img.jpg");
 
     /*
-        TODO: done!
+        TODO: done
         - Add a background image "header-img.jpg"
         make sure that the path to the image is correct
     */
@@ -82,10 +91,6 @@ img{
 }
 #main-navigation{
     background: #444;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
 
     /*
         TODO:
@@ -93,12 +98,12 @@ img{
     */
 }
 #main-navigation a{
-    display: block;
+    flex: 1;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
-
+    justify-content: space-between;
     /*
         TODO:
         - Flexbox - Create general spacing between nav links
@@ -147,9 +152,6 @@ aside img{
 
 
 article{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: white;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
@@ -172,6 +174,9 @@ article time{
     color: #666;
 }
 article img{
+    float: right;
+    width: 30%;
+    height: auto;
     /*
         TODO:
         - Float article images to the right
