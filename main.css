@@ -14,7 +14,7 @@ light tan: #eeebda
 body{
     font-family: 'Noto Serif', serif;
     line-height: 1.8;
-    margin: 0;
+    margin: auto;
     background-color: #eeebda;
     width: 1000px;
 }
