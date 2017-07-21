@@ -33,11 +33,14 @@ img{
 }
 .wrapper{
     display: flex;
-    justify-content: center;
+    /* flex-direction: row; */
     margin: 0 auto;
     padding: 0;
     background-color: #eeebda;
-    width: 800px;
+  }
+
+
+
     /*
         TODO:
         - Center up the page
@@ -46,7 +49,6 @@ img{
     */
 }
 #site-header{
-  justify-content: center;
   width: 800;
   margin: 100;
   z-index: 0;
@@ -102,7 +104,6 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
-    justify-content: space-between;
     /*
         TODO:
         - Flexbox - Create general spacing between nav links
@@ -122,8 +123,7 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 500px;
-    position: relative;
-    z-index: 10;
+
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -136,7 +136,8 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 300px;
     position: relative;
-    z-index; 10;
+    left: 540px;
+    top: -2065px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
