@@ -138,7 +138,7 @@ aside{
     width: 300px;
     position: relative;
     left: 540px;
-    top: -2065px;
+    top: -2100px;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -206,7 +206,7 @@ article footer p{
 }
 #site-footer{
 
-    background: #333;
+    background: #444;
     text-align: center;
     /*
         TODO:
@@ -215,6 +215,6 @@ article footer p{
 }
 #site-footer>span {
   color: white;
-  background: #ccc;
+  background: #444;
   font-size: 50%;
 }
